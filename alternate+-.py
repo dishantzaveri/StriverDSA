@@ -20,4 +20,5 @@ def RearrangebySign(A: List[int]) -> List[int]:
     
 A = [1,2,-4,-5]
 ans = RearrangebySign(A)
+
 print(ans)
