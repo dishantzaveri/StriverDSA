@@ -1,0 +1,17 @@
+class Solution:
+    def isMinHeap(self,nums):
+        n = len(nums)
+        for i in range(n//2):
+            left = 2*i+1
+            if left<n and nums[i] > nums[left]:
+                return False
+            right = 2*i+2
+            if right < n and nums[i] > nums[right]:
+                return False
+        return True
+    
+if __name__ == "__main__":
+    obj = Solution()
+    nums = [10, 200, 303, 21, 23]
+    output = obj.isMinHeap(nums)
+    print("true" if output else "false")

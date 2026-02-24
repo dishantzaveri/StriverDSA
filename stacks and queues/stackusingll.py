@@ -6,7 +6,6 @@ class Node:
         self.val = d
         self.next = None
 
-# Structure to represent stack
 class LinkedListStack:
     def __init__(self):
         self.head = None  # Top of Stack
@@ -52,7 +51,6 @@ class LinkedListStack:
 # Creating a stack
 st = LinkedListStack()
 
-# List of commands
 commands = ["LinkedListStack", "push", "push", "pop", "top", "isEmpty"]
 # List of inputs
 inputs = [[], [3], [7], [], [], []]
