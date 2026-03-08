@@ -13,8 +13,5 @@ def minCostConnectSticks(sticks):
 
     return total_cost
 
-# Example 1
 print(minCostConnectSticks([2, 4, 3]))    # Output: 14
-
-# Example 2
 print(minCostConnectSticks([1, 8, 3, 5])) # Output: 30
